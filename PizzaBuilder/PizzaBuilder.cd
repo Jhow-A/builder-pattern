@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PizzaBuilder.Builder.PizzaBuilder">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAACBAAAAAQA=</HashCode>
+      <FileName>Builder\PizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaBuilder.ConcreteBuilder.PizzaCalabresa">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ConcreteBuilder\PizzaCalabresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaBuilder.ConcreteBuilder.PizzaMussarela">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ConcreteBuilder\PizzaMussarela.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaBuilder.Director.Pizzaria">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Director\Pizzaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaBuilder.Product.Pizza">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEEAAAAACACAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Product\Pizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PizzaBuilder.Product.Enums.TamanhoPizza">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Product\Enums\TamanhoPizza.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PizzaBuilder.Product.Enums.TipoBordaPizza">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Product\Enums\TipoBordaPizza.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PizzaBuilder.Product.Enums.TipoMassaPizza">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAEAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\Enums\TipoMassaPizza.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
